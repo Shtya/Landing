@@ -793,22 +793,23 @@ main{
       box-shadow: 0 0 5px #333 inset;
       padding: 90px 0 ;
       position: relative;
-      .slick-active .box{background: #333 !important;}
+
+      .slick-active .box{background: #111 !important;}
       .h1{
-        margin: 0 auto 86px;
+        margin: 0 auto 50px;
         @media (max-width:800px) {
           margin: 0 auto 40px;
         }
       }
       .q{
-        width: 250px;
+        width: 200px;
         position: absolute;
         top: -70px;
         z-index: 0;
         left: 0;
         height: 300px;
         object-fit: contain;
-        opacity: 0.3 !important;
+        opacity: 0.1 !important;
         @media (max-width:900px){width:150px ; height: 100px; top:0 ;}
       }
       
@@ -816,7 +817,7 @@ main{
         width: 95%;
         margin: auto;
         .box{
-          background: #111;
+          background: #333;
           padding: 10px;
           text-align: center;
           display: flex;
@@ -829,8 +830,8 @@ main{
               margin: 10px 0;
           }
           img{
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             margin: 0 auto;
             border-radius: 50%;
             object-fit: contain;
@@ -1906,11 +1907,11 @@ main{
   margin-bottom: -30px;
   button::before{
     font-size: 15px !important;
-    color: white !important;
+    color: #111 !important;
     opacity: .6 !important;
   }
   .slick-active button::before{
-    color: #333 !important;
+    color: white !important;
     opacity: 1 !important;
   }
 }
